@@ -60,9 +60,62 @@ git tag -d <tagname> #删掉本地仓库的标签
 1. git push <remote> :ref/tags/<tagname> #远程仓库删除标签
 2. git push origin --delete <tagname>
 ```
-####远程分支
+#### 分支
 删除远程分支
 ```
 git branch -d LocalBranchName
 git push origin --delete remoteBranchName
+```
+**git提交有快照对象，一个树结构，一个提交对象**
+分支创建
+```
+git branch testing
+```
+分支切换
+```
+git checkout tesing
+```
+远程分支（远程跟踪分支--本地分支）
+```
+git remote show
+```
+推送
+```
+git push origin LocalBranchName:RemoteBranchName
+```
+创建远程跟踪分支
+```
+git checkout -b LocalBranchName Remote/RemoteBranchName
+```
+大体流程
+```
+本地
+git branch LocalBranchName
+git checkout LocalBranchName
+git push origin LocalBranchName
+git fech origin
+git branch -u <remote>/<branch> or git branch --set-upstream-to <remote>/<branch>
+
+clone 后
+git checkout -b <branch> <remote>/<branch>
+or
+git checkout --track <remote>/<branch>
+```
+
+#### 贮藏与清理
+```
+git stash
+```
+查看stash列表
+```
+git stash list
+```
+重新应用
+```
+git stash apply stash@{}
+```
+移除
+```
+1. git stash pop
+2. git stash drop stash@{}
 ```
