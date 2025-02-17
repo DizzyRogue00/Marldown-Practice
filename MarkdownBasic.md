@@ -71,8 +71,8 @@ or
     - intend 2
 - Third
 
-*   This is the first list item.
-*   Here's the second list item.
+*  This is the first list item.
+*  Here's the second list item.
 
     > A blockquote would look great below the second list item.
 
