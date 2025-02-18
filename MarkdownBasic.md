@@ -96,7 +96,12 @@ or
 
 ## 代码语法
 At the command prompt, type `nano`.
+
+At the command prompt, type <code>nano</code>.
+
 ``Use `code` in your Markdown file.``
+
+<code>Use \`code\` in your Markdown file.</code>
 
 要创建代码块，请将代码块的每一行缩进至少四个空格或一个制表符。
 
@@ -121,3 +126,12 @@ Try to put
 ___
 
 ...and
+
+## 链接语法
+[超链接显示名](链接地址 "超链接title")
+<a href="超链接地址" title="超链接title">超链接显示名</a>
+
+这是一个链接 [Markdown语法](https://markdown.com.cn)
+
+这是一个链接 <a href="https://markdown.com.cn" title="Hello">Markdown语法</a>
+
