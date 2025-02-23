@@ -135,3 +135,34 @@ ___
 
 这是一个链接 <a href="https://markdown.com.cn" title="Hello">Markdown语法</a>
 
+这是一个链接 [Markdown语法](https://markdown.com.cn "最好的markdown教程")。
+
+尖括号把url或者email变成可点击链接
+
+<https://markdown.com.cn>
+
+<fake@example.com>
+
+I love supporting the **[EFF](https://eff.org)**.
+
+This is the *[Markdown Guide](https://www.markdownguide.org)*.
+
+See the section on [`code`](#code).
+
+[hobbit-hole][1]
+[hobbit-hole] [2]
+[hobbit-hole][2]
+[hobbit-hole][3]
+[hobbit-hole][4]
+[hobbit-hole][5]
+[hobbit-hole][6]
+[hobbit-hole][7]
+
+
+[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle
+[2]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"
+[3]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle 'Hobbit lifestyles'
+[4]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit lifestyles)
+[5]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
+[6]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Hobbit lifestyles'
+[7]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)
