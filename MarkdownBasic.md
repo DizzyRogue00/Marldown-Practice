@@ -166,3 +166,34 @@ See the section on [`code`](#code).
 [5]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
 [6]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Hobbit lifestyles'
 [7]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)
+
+## 图片
+![图片alt](图片链接 "图片title")
+<img src="图片链接" alt="图片alt" title="图片title">
+
+![这是图片](https://markdown.com.cn/assets/img/philly-magic-garden.9c0b4415.jpg "Magic Gardens")
+
+给图片增加链接
+
+[![沙漠中的岩石图片](https://markdown.com.cn/assets/img/shiprock.c3b9a023.jpg "Shiprock")](https://markdown.com.cn)
+
+## 区块标签
+区块元素`<div>`、` <table>` 、`<pre>`、 `<p>`，必须在前后行加上空行，而且这些元素的开始和结尾标签，不可以用tab或是空白来缩进。
+
+This is a regular paragraph.
+
+<table>
+    <tr>
+        <td>Foo</td>
+        <td>Hell</td>
+    </tr>
+</table>
+
+## 特殊字符转义
+`<`和`&`
+
+`&lt;`和`&amp;`
+
+&copy;
+
+AT&T
