@@ -197,3 +197,28 @@ This is a regular paragraph.
 &copy;
 
 AT&T
+
+AT&amp;T
+
+## 表格
+(---)创建每列的标题，并使用|分割每列
+
+|Syntax|Description|
+|---|-----------|
+|Header|Title|
+|Paragraph|Text|
+
+对齐
+
+左侧（:---）
+右侧（---:）
+居中（:---:）
+
+|Syntax|Description|Test Text|
+|:---|:---:|---:|
+|Paragraph|Title|Here's this|
+|Header|Text|And|
+|`code`|[Hello](https://markdown.com.cn/extended-syntax/tables.html)|**_ok_**|
+|&#124;|&#124;|&#124;|
+
+可以添加（`code`）与链接
